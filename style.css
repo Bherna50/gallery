@@ -105,15 +105,15 @@ footer {
 
 }
  /*-------------------- MEDIA QUERY (medium) --------------------------------*/
- @media (min-width: 836px) {
+ @media (min-width: 485px) {
         
  }
  /*-------------------- MEDIA QUERY (large) ------------------------------------*/
- @media (min-width: 1100px) {
+ @media (min-width: 880px) {
      
  }
  /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
- @media (min-width: 1200px) {
+ @media (min-width: 1300px) {
      
  }
