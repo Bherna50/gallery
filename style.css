@@ -1,5 +1,5 @@
  /* -------------------- IMPORTED FONTS -------------------------------------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
  /*-------------------- CSS RESET ---------------------------------------------------*/
  body {
@@ -35,10 +35,15 @@ small {
     --font: Arial, Helvetica, sans-serif;
 }
  /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-body {
+html {
+   
+}
+
+ body {
     background-color: #000000;
     font-family: var(--font);
     justify-content:center;
+    margin: 50px;
     
 }
 header {
@@ -46,16 +51,14 @@ header {
     
 }
 nav {
-    background-color: #ffffff;
     justify-content: right;
 
 }
 nav ul {
     display: flex;
     list-style-type: none;
-    padding: 5px;
-    margin: 0;
-    background-color: #ffffff;
+    padding: 30px;
+    background-color:var(--black);
 }
 nav li {
     margin: auto;
@@ -71,7 +74,9 @@ nav a {
     bottom: 0px;
     right: 0px;
     border-radius: 10px 0px 0px;
-    color: #ffffff;
+    color: var(--white);
+    background-color: var(--black);
+    text-decoration: none;
 }
 h1 {
     color:#007d7b;
@@ -84,7 +89,8 @@ main {
     background-color: #ffffff;
 }
 #gallery {
-    
+    margin: 35px;
+    background-color: var(--black);
 }
 #contact {
     background-color: #000000;
@@ -94,6 +100,7 @@ main {
 form {
     color:#ffffff;
     justify-content: left;
+    text-align: center;
 }
 .button {
     background-color: #007d7b;
