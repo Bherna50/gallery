@@ -3,28 +3,22 @@
 
  /*-------------------- CSS RESET ---------------------------------------------------*/
  body {
-    font-size:1.25em;
- }
- nav a {
-    font-size:1.5em;
- }
- h1 {
-    font-size: 3em;
- }
- h2 {
-    font-size: 2em;
- }
- figcaption {
-    font-size: 1em;
+	line-height: 1;
 }
-label {
-    font-size: 1em;
-} 
-input {
-    font-size: 1em;
+ol, ul {
+	list-style: none;
 }
-small {
-    font-size: 1em;
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
  /* -------------------- ROOT VARIABLES --------------------------------------- */
