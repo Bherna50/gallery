@@ -82,10 +82,14 @@ h2 {
 main {
     background-color: #ffffff;
 }
-#gallery {
-    margin: 35px;
-    background-color: var(--black);
+figure {
+    margin: 10px;
 }
+figcaption{
+    display: block;
+    position: absolute;
+}
+
 #contact {
     background-color: #000000;
     color: #ffffff;
@@ -111,10 +115,14 @@ footer {
  }
  /*-------------------- MEDIA QUERY (large) ------------------------------------*/
  @media (min-width: 880px) {
-     
+     figure {
+        display: inline-block;
+     }
  }
  /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
  @media (min-width: 1300px) {
-     
+     figure {
+        display: inline-block;
+     }
  }
