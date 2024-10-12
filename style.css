@@ -88,6 +88,8 @@ figure {
 figcaption{
     display: block;
     position: absolute;
+    text-align: center;
+    
 }
 
 #contact {
